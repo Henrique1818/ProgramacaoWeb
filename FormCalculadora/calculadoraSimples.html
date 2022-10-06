@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Calculadora simples</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <section class="container">
+        <form>
+            <p class="campos">
+                <label for="valor1">Valor 1: </label>
+                <input type="number" name="valor1" id="valor1" />
+            </p>
+            <p class="campos">
+                <label for="valor2">Valor 2: </label>
+                <input type="number" name="valor2" id="valor2" />
+            </p>
+            <p class="campos opcoes">
+                <label for="soma">Opções: </label>
+                <small>
+                    <input type="radio" name="opcao" id="soma" />
+                    SOMA
+                </small>
+                <small>
+                    <input type="radio" name="opcao" id="subtracao" />
+                    SUBTRAÇÃO
+                </small>
+                <small>
+                    <input type="radio" name="opcao" id="multiplicacao" />
+                    MULTIPLICAÇÃO
+                </small>
+                <small>
+                    <input type="radio" name="opcao" id="divisao" />
+                    DIVISÃO
+                </small>
+            </p>
+            <p class="campos resultados">
+                <label for="resultado">Resultado:</label>
+                <input type="number" name="resultado" id="resultado" />
+            </p>
+            <button type="button" class="botao">Calcular</button>
+        </form>
+    </section>
+</body>
+</html>

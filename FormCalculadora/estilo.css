@@ -1,0 +1,65 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 80vh;
+}
+
+p, label {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    font-family: Verdana;
+    font-size: 18pt;
+}
+
+.container form {
+    border: 22px double red;
+    width: 510px;
+    margin: 5vh auto;
+    padding: 30px;
+}
+
+.container form input {
+    border: 1px solid black;
+    background-color: yellow;
+    font-size: 18pt;
+}
+
+.container form input[type=number] {
+    margin-left: 5px;
+}
+
+.container form .campos {
+    display: flex;
+    margin-top: 5px;
+}
+
+.container form .campos label {
+    font-weight: bold;
+}
+
+.container form .campos.opcoes {
+    display: grid;
+}
+
+.container form .campos.resultados {
+    display: grid;
+}
+
+.container form .campos.resultados input {
+    width: 300px;
+}
+
+.container form button {
+    padding: 8px;
+    margin-top: 18px;
+}
